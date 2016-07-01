@@ -37,3 +37,120 @@ div.mariobottom {
     border-top-style: none;
     margin-left: 25px
 }
+
+* {
+    box-sizing: border-box;
+}
+
+div.top {
+    background-color: #1c2f4a;
+    width: 300px;
+    height: 200px;
+    font-family: Microsoft JhengHei;
+}
+
+div.fp {
+    color: white;
+    width: 200px;
+    height: 30px;
+    padding: 10px 30px 5px 30px;
+    margin: auto auto auto auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+div.mo {
+    color: white;
+    width: 220px;
+    height: 120px;
+    padding: 10px 0px 10px 0px;
+    margin: auto auto auto 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+span.dollar {
+    width: 100px;
+    height: 100px;
+    padding: 50px 0px 0px 0px;
+    margin: 0px -20px 0px 40px;
+    font-size: 12px;
+}
+
+span.number {
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+    margin: auto auto auto 30px;
+    font-size: 70px;
+}
+
+span.month {
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px 10px 10px;
+    margin: auto 25px auto auto;
+    font-size: 12px;
+}
+
+div.gf {
+    color: white;
+    width: 160px;
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: auto auto auto auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+div.bottom {
+    width: 300px;
+    height: 200px;
+    font-family: Microsoft JhengHei;
+    border: 1px solid black;
+}
+
+div.message {
+    color: gray;
+    width: 140px;
+    height: 35px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px auto 0px auto;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px soild gray;
+}
+
+div.data {
+    color: gray;
+    width: 120px;
+    height: 35px;
+    padding: 10px 10px 10px 10px;
+    margin: auto auto auto 77px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px soild gray;
+}
+
+div.users {
+    color: gray;
+    width: 120px;
+    height: 35px;
+    padding: 10px 10px 10px 10px;
+    margin: auto auto auto 80px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px soild gray;
+}
+
+div.day {
+    color: gray;
+    width: 140px;
+    height: 35px;
+    padding: 10px 10px 10px 10px;
+    margin: auto auto auto auto;
+    font-size: 12px;
+    text-align: center;
+}
