@@ -6,6 +6,7 @@ div.square {
     border-bottom: 100px solid blue;
     border-right: 100px solid red;
     border-left: 100px solid yellow;
+    margin-bottom: 100px;
 }
 
 span.rectangle {
@@ -16,6 +17,7 @@ span.rectangle {
     border-bottom: 0px;
     border-right: 100px solid blue;
     border-left: 100px solid darkblue;
+    margin-top: 50px;
 }
 
 div.mariotop {
