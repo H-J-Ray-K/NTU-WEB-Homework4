@@ -42,6 +42,11 @@ div.mariobottom {
     box-sizing: border-box;
 }
 
+span.chart {
+    display: inline-block;
+    margin-left: 10px;
+}
+
 div.top {
     background-color: #1c2f4a;
     width: 300px;
@@ -72,8 +77,8 @@ div.mo {
 span.dollar {
     width: 100px;
     height: 100px;
-    padding: 50px 0px 0px 0px;
-    margin: 0px -20px 0px 40px;
+    padding: 0px 0px 0px 0px;
+    margin: auto -20px auto 40px;
     font-size: 12px;
 }
 
@@ -83,6 +88,14 @@ span.number {
     padding: 10px 10px 10px 10px;
     margin: auto auto auto 30px;
     font-size: 70px;
+}
+
+span.number2 {
+    width: 100px;
+    height: 100px;
+    padding: 10px 0px 10px 0px;
+    margin: auto auto auto 30px;
+    font-size: 60px;
 }
 
 span.month {
@@ -116,18 +129,17 @@ div.message {
     color: gray;
     width: 140px;
     height: 35px;
-    padding: 10px 10px 10px 10px;
-    margin: 20px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    margin: 30px auto 0px auto;
     font-size: 12px;
     text-align: center;
-    border-bottom: 1px soild gray;
+    outline: gary soild 1px;
 }
 
 div.data {
     color: gray;
     width: 120px;
     height: 35px;
-    padding: 10px 10px 10px 10px;
     margin: auto auto auto 77px;
     font-size: 12px;
     text-align: center;
@@ -138,7 +150,6 @@ div.users {
     color: gray;
     width: 120px;
     height: 35px;
-    padding: 10px 10px 10px 10px;
     margin: auto auto auto 80px;
     font-size: 12px;
     text-align: center;
@@ -149,8 +160,10 @@ div.day {
     color: gray;
     width: 140px;
     height: 35px;
-    padding: 10px 10px 10px 10px;
     margin: auto auto auto auto;
     font-size: 12px;
     text-align: center;
+}
+span.limit {
+    color: black
 }
