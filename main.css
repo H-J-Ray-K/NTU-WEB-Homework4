@@ -133,7 +133,7 @@ div.message {
     margin: 30px auto 0px auto;
     font-size: 12px;
     text-align: center;
-    outline: gary soild 1px;
+    border-bottom: 1px soild gray;
 }
 
 div.data {
@@ -141,6 +141,15 @@ div.data {
     width: 120px;
     height: 35px;
     margin: auto auto auto 77px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px soild gray;
+}
+div.data2 {
+    color: gray;
+    width: 120px;
+    height: 35px;
+    margin: auto auto auto 86px;
     font-size: 12px;
     text-align: center;
     border-bottom: 1px soild gray;
@@ -155,12 +164,29 @@ div.users {
     text-align: center;
     border-bottom: 1px soild gray;
 }
+div.users2 {
+    color: gray;
+    width: 120px;
+    height: 35px;
+    margin: auto auto auto 89px;
+    font-size: 12px;
+    text-align: center;
+    border-bottom: 1px soild gray;
+}
 
 div.day {
     color: gray;
     width: 140px;
     height: 35px;
     margin: auto auto auto auto;
+    font-size: 12px;
+    text-align: center;
+}
+div.day2 {
+    color: gray;
+    width: 140px;
+    height: 35px;
+    margin: auto auto auto 82px;
     font-size: 12px;
     text-align: center;
 }
