@@ -41,10 +41,15 @@ div.mariobottom {
 * {
     box-sizing: border-box;
 }
+.myclass {background-image: url(http://www.wallhd4.com/wp-content/uploads/2016/04/circle-of-light-10.jpeg);
+    width: 1100px;
+    height: 500px;
+    margin: auto auto auto auto;
+}
 
 span.chart {
     display: inline-block;
-    margin-left: 10px;
+        margin: 50px 10px auto 40px;
 }
 
 div.top {
@@ -94,8 +99,8 @@ span.number2 {
     width: 100px;
     height: 100px;
     padding: 10px 0px 10px 0px;
-    margin: auto auto auto 30px;
-    font-size: 60px;
+    margin: auto -10px auto 30px;
+    font-size: 70px;
 }
 
 span.month {
@@ -119,17 +124,18 @@ div.gf {
 }
 
 div.bottom {
+    background-color: white; 
     width: 300px;
     height: 200px;
     font-family: Microsoft JhengHei;
-    border: 1px solid black;
+    margin: -30px auto -20px auto;
 }
 
 div.message {
     color: gray;
     width: 140px;
     height: 35px;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
     margin: 30px auto 0px auto;
     font-size: 12px;
     text-align: center;
@@ -140,15 +146,18 @@ div.data {
     color: gray;
     width: 120px;
     height: 35px;
+    padding: 20px 0px 0px 0px;
     margin: auto auto auto 77px;
     font-size: 12px;
     text-align: center;
     border-bottom: 1px soild gray;
 }
+
 div.data2 {
     color: gray;
     width: 120px;
     height: 35px;
+    padding: 20px 0px 0px 0px;
     margin: auto auto auto 86px;
     font-size: 12px;
     text-align: center;
@@ -159,15 +168,18 @@ div.users {
     color: gray;
     width: 120px;
     height: 35px;
+    padding: 20px 0px 0px 0px;
     margin: auto auto auto 80px;
     font-size: 12px;
     text-align: center;
     border-bottom: 1px soild gray;
 }
+
 div.users2 {
     color: gray;
     width: 120px;
     height: 35px;
+    padding: 20px 0px 0px 0px;
     margin: auto auto auto 89px;
     font-size: 12px;
     text-align: center;
@@ -178,18 +190,22 @@ div.day {
     color: gray;
     width: 140px;
     height: 35px;
+    padding: 20px 0px 0px 0px;
     margin: auto auto auto auto;
     font-size: 12px;
     text-align: center;
 }
+
 div.day2 {
     color: gray;
     width: 140px;
     height: 35px;
+    padding: 20px 0px 0px 0px;
     margin: auto auto auto 82px;
     font-size: 12px;
     text-align: center;
 }
+
 span.limit {
     color: black
 }
