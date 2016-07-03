@@ -80,18 +80,20 @@ div.mo {
 }
 
 span.dollar {
-    width: 100px;
+    width: 20px;
     height: 100px;
-    padding: 0px 0px 0px 0px;
-    margin: auto -20px auto 40px;
-    font-size: 12px;
+    //padding: 20px 0px 0px 0px;
+    margin: 20px -20px auto 0px;
+    //font-size: 12px;
+	vertical-align: top;
+	position: absolute;
 }
 
 span.number {
     width: 100px;
     height: 100px;
     padding: 10px 10px 10px 10px;
-    margin: auto auto auto 30px;
+    margin: auto -20px auto 20px;
     font-size: 70px;
 }
 
@@ -99,7 +101,7 @@ span.number2 {
     width: 100px;
     height: 100px;
     padding: 10px 0px 10px 0px;
-    margin: auto -10px auto 30px;
+    margin: auto -30px auto 20px;
     font-size: 70px;
 }
 
@@ -107,7 +109,7 @@ span.month {
     width: 100px;
     height: 100px;
     padding: 10px 10px 10px 10px;
-    margin: auto 25px auto auto;
+    margin: auto 0px auto 30px;
     font-size: 12px;
 }
 
@@ -133,65 +135,70 @@ div.bottom {
 
 div.message {
     color: gray;
-    width: 140px;
-    height: 35px;
-    padding: 20px 0px 0px 0px;
+    width: 120px;
+    height: 40px;
+    padding: 10px 0px 30px 0px;
     margin: 30px auto 0px auto;
     font-size: 12px;
     text-align: center;
-    border-bottom: 1px soild gray;
+    border-bottom: 1px solid #e0e0e0;
+	line-height: 30px;
 }
 
 div.data {
     color: gray;
     width: 120px;
     height: 35px;
-    padding: 20px 0px 0px 0px;
-    margin: auto auto auto 77px;
+	padding: 10px 20px 0px 0px;
+    margin: 0px 0px 0px 90px;
     font-size: 12px;
     text-align: center;
-    border-bottom: 1px soild gray;
+    border-bottom: 1px solid #e0e0e0;
+	line-height: 0px;
 }
 
 div.data2 {
     color: gray;
     width: 120px;
     height: 35px;
-    padding: 20px 0px 0px 0px;
-    margin: auto auto auto 86px;
+	padding: 10px 5px 0px 0px;
+    margin: 0px auto 0px 90px;
     font-size: 12px;
     text-align: center;
-    border-bottom: 1px soild gray;
+    border-bottom: 1px solid #e0e0e0;
+	line-height: 0px;
 }
 
 div.users {
     color: gray;
     width: 120px;
     height: 35px;
-    padding: 20px 0px 0px 0px;
-    margin: auto auto auto 80px;
+	padding: 10px 15px 0px 0px;
+    margin: 0px auto 0px 90px;
     font-size: 12px;
     text-align: center;
-    border-bottom: 1px soild gray;
+    border-bottom: 1px solid #e0e0e0;
+	line-height: 0px;
 }
 
 div.users2 {
     color: gray;
     width: 120px;
     height: 35px;
-    padding: 20px 0px 0px 0px;
-    margin: auto auto auto 89px;
+	padding: 10px 0px 0px 0px;
+    margin: 0px auto 0px 89px;
     font-size: 12px;
     text-align: center;
-    border-bottom: 1px soild gray;
+    border-bottom: 1px solid #e0e0e0;
+	line-height: 0px;
 }
 
 div.day {
     color: gray;
     width: 140px;
     height: 35px;
-    padding: 20px 0px 0px 0px;
-    margin: auto auto auto auto;
+	padding: 10px 0px 0px 0px;
+    margin: auto auto auto 82px;
     font-size: 12px;
     text-align: center;
 }
@@ -200,7 +207,7 @@ div.day2 {
     color: gray;
     width: 140px;
     height: 35px;
-    padding: 20px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
     margin: auto auto auto 82px;
     font-size: 12px;
     text-align: center;
